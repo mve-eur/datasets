@@ -60,7 +60,7 @@
 	"distribution": [
 		{
 			"@type": "DataDownload",
-			"contentUrl": "https://druid.datalegend.net/EURlibrary/Tinbergen-Letters-Sent/sparql",
+			"contentUrl": "https://api.druid.datalegend.net/datasets/EURlibrary/Tinbergen-Letters-Sent/sparql",
 			"encodingFormat": [
 				"application/sparql-query"
 			],
