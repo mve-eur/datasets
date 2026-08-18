@@ -12,114 +12,74 @@
 		"alternateName": "Erasmus University Library",
 		"contactPoint": {
 			"@type": "ContactPoint",
-			"name": "Collection Management & Access - Team Metadata Services",
+			"name": "Collection Management & Access Department - Team Metadata Services",
 			"email": "registration.library@eur.nl"
 		}
 	},
-	"description": "One of the most fascinating loners in twentieth-century Dutch poetry is Maastricht-born Pierre Kemp (1886-1967). In 1956 he was awarded the Constantijn Huygens Prize, followed in 1958 by the P.C. Hooft Prize. Maastricht University Library manages a large part of his personal estate. The collection contains digitised representations of handwritten letters, manuscripts, drawings, a Liber Amicorum, physical objects (a desk, a cabinet and an egg decorated by him with a poem) and books from Kemp's personal collection. Many of his books also have museological value because of the margin notes and because the poet himself ordered that they be covered in specially coloured flypaper.",
+    "dateCreated": "2026-04-16",
+    "datePublished": "2026-04-16",
+    "dateModified": "2026-08-11",
+	"description": "The Jan Tinbergen Outgoing Correspondence dataset consists of letters which started in the mid 1920’s and lasted right up to his decease in 1994, Jan Tinbergen corresponded with hundreds of people about a myriad of topics related to his work as lecturer and researcher of the Erasmus University, as economic advisor of the League of Nations in Geneva (1936-38), as first director of the Central Planning Bureau of the Netherlands (1945-1955), as advisor of The Club of Rome, and after his final retirement from academia in 1975, as engaged citizen in matters such as world peace, environmental pollution and North-South inequality.",
 	"inLanguage": "en",
 	"creator": {
 		"@type": "Organization",
-		"@id": "http://viaf.org/viaf/197381225",
-		"name": "Maastricht University Library"
+		"@id": "https://www.wikidata.org/wiki/Q130493218",
+		"name": "Library Erasmus University Rotterdam"
 	},
-	"version": "1.2.0",
+	"version": "2.0",
 	"keywords": [
-		"Pierre Kemp",
-		"Special collection",
-		"Pierre Kemp Stichting"
+		"Jan Tinbergen",
+		"History",
+		"Econometrics",
+		"Nobel prize in economics",
+		"1922-1994"
 	],
 	"genre": [
-		"Literature",
-		"Visual Art"
+		"Letters",
+		"Cultural heritage"
 	],
-	"spatialCoverage": "Maastricht",
-	"temporalCoverage": "1931-1966",
-	"includedInDataCatalog": "Special Collections Maastricht University",
-	"mainEntityOfPage": [
-		"https://n2t.net/ark:/27364/d18jZzz"
-	],
+	"spatialCoverage": [
+        {
+            "@type": "Place",
+            "name": "Rotterdam",
+            "@id": "http://vocab.getty.edu/tgn/7006952"
+        },
+        {
+            "@type": "Place",
+            "name": "Netherlands",
+            "@id": "http://vocab.getty.edu/tgn/1000063"
+        }
+    ],
+	"temporalCoverage": "1922-1994",
+	"includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "Special Collections Erasmus University Rotterdam"
+    },
+	"mainEntityOfPage": "https://eur.omeka.net/s/tb_ltrs_s/item-set/28",
+    "url": "https://eur.omeka.net/s/tb_ltrs_s/item-set/28",
 	"distribution": [
 		{
 			"@type": "DataDownload",
-			"contentUrl": "https://digitalcollections.library.maastrichtuniversity.nl/api/items?item_set_id=14",
-			"encodingFormat": [
-				"application/ld+json"
-			],
-			"name": "REST-API",
-			"license": "https://creativecommons.org/licenses/by/4.0/",
-			"description": "Pierre Kemp Collection as JSON-LD download from Omeka S REST API",
-			"inLanguage": "en"
-		},
-		{
-			"@type": "DataDownload",
-			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/MaastrichtUniversityLibrary/Pierre-Kemp-Omeka-S/sparql/Pierre-Kemp-Omeka-S",
+			"contentUrl": "https://druid.datalegend.net/EURlibrary/Tinbergen-Letters-Sent/sparql",
 			"encodingFormat": [
 				"application/sparql-query"
 			],
 			"name": "SPARQL-endpoint",
 			"license": "https://creativecommons.org/licenses/by/4.0/",
-			"description": "SPARQL endpoint for the Pierre Kemp Collection",
+			"description": "SPARQL endpoint for the Tinbergen Letters Sent dataset.",
 			"inLanguage": "en"
 		}
 		,
 		{
 			"@type": "DataDownload",
-			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/MaastrichtUniversityLibrary/Pierre-Kemp-Omeka-S/download.trig.gz",
+			"contentUrl": "https://druid.datalegend.net/EURlibrary/Tinbergen-Letters-Sent/download.trig.gz",
 			"encodingFormat": [
-				"application/trig"
+				"application/trig",
+                "application/gzip"
 			],
 			"name": "Triply datadump (TriG)",
 			"license": "https://creativecommons.org/licenses/by/4.0/",
 			"description": "Graph(s) downloaded from triple store (TriG format)",
-			"inLanguage": "en"
-		}
-		,
-		{
-			"@type": "DataDownload",
-			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/MaastrichtUniversityLibrary/Pierre-Kemp-Omeka-S/download.nt.gz",
-			"encodingFormat": [
-				"application/n-triples"
-			],
-			"name": "Triply datadump (N-triples)",
-			"license": "https://creativecommons.org/licenses/by/4.0/",
-			"description": "Graph(s) downloaded from triple store (N-triples format)",
-			"inLanguage": "en"
-		}
-		,
-		{
-			"@type": "DataDownload",
-			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/MaastrichtUniversityLibrary/Pierre-Kemp-Omeka-S/download.nq.gz",
-			"encodingFormat": [
-				"application/n-quads"
-			],
-			"name": "Triply datadump (N-quads)",
-			"license": "https://creativecommons.org/licenses/by/4.0/",
-			"description": "Graph(s) downloaded from triple store (N-quads format)",
-			"inLanguage": "en"
-		}
-		,
-		{
-			"@type": "DataDownload",
-			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/MaastrichtUniversityLibrary/Pierre-Kemp-Omeka-S/download.ttl.gz",
-			"encodingFormat": [
-				"text/turtle"
-			],
-			"name": "Triply datadump (Turtle)",
-			"license": "https://creativecommons.org/licenses/by/4.0/",
-			"description": "Graph(s) downloaded from triple store (Turtle format)",
-			"inLanguage": "en"
-		}
-		,
-		{
-			"@type": "DataDownload",
-			"contentUrl": "https://data.netwerkdigitaalerfgoed.nl/MaastrichtUniversityLibrary/Pierre-Kemp-Omeka-S/download.jsonld.gz",
-			"encodingFormat": [
-				"application/ld+json"
-			],
-			"name": "Triply datadump (JSON-LD)",
-			"license": "https://creativecommons.org/licenses/by/4.0/",
-			"description": "Graph(s) downloaded from triple store (JSON-LD format)",
 			"inLanguage": "en"
 		}
 	]
