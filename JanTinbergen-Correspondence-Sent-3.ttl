@@ -1,4 +1,18 @@
-{
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix getty: <https://vocab.getty.edu/tgn/> .
+@prefix gov: <http://id.loc.gov/vocabulary/iso639-1/> .
+@prefix letter: <http://dx.doi.org/10.15133/ul/tinbergen_sent/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
     <http://dx.doi.org/10.15133/ul/catalog/JanTinbergen-Correspondence-Sent-2> a dcat:Dataset,
             schema:Dataset ;
         dcterms:issued "2026-08-11"^^xsd:date ;
@@ -320,4 +334,4 @@ de ongelijkheid tussen Noord en Zuid."""@nl ;
         schema:name "Collection Management & Access Department"@en ;
         schema:telephone "+31 (0)10 408 1198",
             "+31 (0)6 40 02 26 03" .
-}
+
