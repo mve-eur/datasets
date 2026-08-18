@@ -12,7 +12,7 @@
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-{
+
     <http://dx.doi.org/10.15133/ul/catalog/JanTinbergen-Correspondence-Sent-2> a dcat:Dataset,
             schema:Dataset ;
         dcterms:issued "2026-08-11"^^xsd:date ;
@@ -334,4 +334,4 @@ de ongelijkheid tussen Noord en Zuid."""@nl ;
         schema:name "Collection Management & Access Department"@en ;
         schema:telephone "+31 (0)10 408 1198",
             "+31 (0)6 40 02 26 03" .
-}
+
