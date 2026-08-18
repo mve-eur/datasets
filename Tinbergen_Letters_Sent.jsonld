@@ -8,8 +8,14 @@
 	"publisher": {
 		"@type": "Organization",
 		"@id": "https://www.wikidata.org/wiki/Q130493218",
-		"name": "Library Erasmus University Rotterdam",
-		"alternateName": "Erasmus University Library",
+		"name": {
+            "@value": "Library Erasmus University Rotterdam",
+            "@language": "en"
+        },
+		"alternateName": {
+            "@value": "Erasmus University Library",
+            "@language": "en"
+        },
 		"contactPoint": {
 			"@type": "ContactPoint",
 			"name": "Collection Management & Access Department - Team Metadata Services",
@@ -19,8 +25,17 @@
     "dateCreated": "2026-04-16",
     "datePublished": "2026-04-16",
     "dateModified": "2026-08-11",
-	"description": "The Jan Tinbergen Outgoing Correspondence dataset consists of letters which started in the mid 1920’s and lasted right up to his decease in 1994, Jan Tinbergen corresponded with hundreds of people about a myriad of topics related to his work as lecturer and researcher of the Erasmus University, as economic advisor of the League of Nations in Geneva (1936-38), as first director of the Central Planning Bureau of the Netherlands (1945-1955), as advisor of The Club of Rome, and after his final retirement from academia in 1975, as engaged citizen in matters such as world peace, environmental pollution and North-South inequality.",
-	"inLanguage": "en",
+	"description": [
+        {
+            "@value": "The Jan Tinbergen Outgoing Correspondence dataset consists of letters which started in the mid 1920’s and lasted right up to his decease in 1994, Jan Tinbergen corresponded with hundreds of people about a myriad of topics related to his work as lecturer and researcher of the Erasmus University, as economic advisor of the League of Nations in Geneva (1936-38), as first director of the Central Planning Bureau of the Netherlands (1945-1955), as advisor of The Club of Rome, and after his final retirement from academia in 1975, as engaged citizen in matters such as world peace, environmental pollution and North-South inequality.",
+            "@language": "en"
+    },
+        {
+            "@value": "De dataset 'Jan Tinbergen Outgoing Correspondence' bestaat uit brieven die hij schreef van halverwege de jaren twintig tot aan zijn overlijden in 1994. Tinbergen correspondeerde met honderden mensen over een breed scala aan onderwerpen die verband hielden met zijn werk. Dit omvat zijn rol als docent en onderzoeker aan de Erasmus Universiteit, zijn tijd als economisch adviseur van de Volkenbond in Genève (1936-1938), zijn functie als eerste directeur van het Centraal Planbureau (1945-1955), zijn advieswerk voor de Club van Rome, en na zijn definitieve pensionering uit de academische wereld in 1975, zijn betrokkenheid als geëngageerd burger bij thema's als wereldvrede, milieuvervuiling en de ongelijkheid tussen Noord en Zuid.",
+            
+    }            
+    ],
+    "inLanguage": ["en", "nl", "de", "fr", "nor"],
 	"creator": {
 		"@type": "Organization",
 		"@id": "https://www.wikidata.org/wiki/Q130493218",
@@ -32,7 +47,7 @@
 		"History",
 		"Econometrics",
 		"Nobel prize in economics",
-		"1922-1994"
+		"1922/1994"
 	],
 	"genre": [
 		"Letters",
@@ -51,16 +66,12 @@
         }
     ],
 	"temporalCoverage": "1922-1994",
-	"includedInDataCatalog": {
-        "@type": "DataCatalog",
-        "name": "Special Collections Erasmus University Rotterdam"
-    },
 	"mainEntityOfPage": "https://eur.omeka.net/s/tb_ltrs_s/item-set/28",
     "url": "https://eur.omeka.net/s/tb_ltrs_s/item-set/28",
 	"distribution": [
 		{
 			"@type": "DataDownload",
-			"contentUrl": "https://druid.datalegend.net/EURlibrary/Tinbergen-Letters-Sent/sparql",
+			"contentUrl": "https://api.druid.datalegend.net/datasets/EURlibrary/Tinbergen-Letters-Sent/sparql",
 			"encodingFormat": [
 				"application/sparql-query"
 			],
@@ -74,8 +85,7 @@
 			"@type": "DataDownload",
 			"contentUrl": "https://druid.datalegend.net/EURlibrary/Tinbergen-Letters-Sent/download.trig.gz",
 			"encodingFormat": [
-				"application/trig",
-                "application/gzip"
+				"application/trig+gzip"
 			],
 			"name": "Triply datadump (TriG)",
 			"license": "https://creativecommons.org/licenses/by/4.0/",
