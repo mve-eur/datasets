@@ -85,7 +85,8 @@
 			"@type": "DataDownload",
 			"contentUrl": "https://druid.datalegend.net/EURlibrary/Tinbergen-Letters-Sent/download.trig.gz",
 			"encodingFormat": [
-				"application/trig+gzip"
+				"application/trig",
+                "application/gzip"
 			],
 			"name": "Triply datadump (TriG)",
 			"license": "https://creativecommons.org/licenses/by/4.0/",
