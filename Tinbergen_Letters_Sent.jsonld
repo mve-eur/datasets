@@ -16,7 +16,15 @@
 	"publisher": {
 		"@type": "Organization",
 		"@id": "https://www.wikidata.org/wiki/Q633529",
-		"sameAs": "https://ror.org/057w15z03",
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"name": {
+				"@value": "Collection Management & Access Department - Team Metadata Services",
+				"@language": "en"
+			},
+			"email": "registration.library@eur.nl"
+		},
+		"identifier": "https://ror.org/057w15z03",
 		"name": [
 			{
             	"@value": "Erasmus University Rotterdam",
@@ -26,15 +34,7 @@
 				"@value": "Erasmus Universiteit Rotterdam",
 				"@language": "nl"
 			}
-		],
-		"contactPoint": {
-			"@type": "ContactPoint",
-			"name": {
-				"@value": "Collection Management & Access Department - Team Metadata Services",
-				"@language": "en"
-			},
-			"email": "registration.library@eur.nl"
-		}
+		]
 	},
     "dateCreated": "2026-04-16",
     "datePublished": "2026-04-16",
