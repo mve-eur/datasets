@@ -24,7 +24,7 @@
 			},
 			"email": "registration.library@eur.nl"
 		},
-		"identifier": "https://ror.org/057w15z03",
+		"identifier": "NL-RtEUR",
 		"name": [
 			{
             	"@value": "Erasmus University Rotterdam",
@@ -53,7 +53,10 @@
 	"creator": {
 		"@type": "Organization",
 		"@id": "https://www.wikidata.org/wiki/Q130493218",
-		"name": "Library Erasmus University Rotterdam"
+		"name": {
+				"@value": "Library Erasmus University Rotterdam",
+				"@language": "en"
+			}
 	},
 	"version": "2.0",
 	"keywords": [
