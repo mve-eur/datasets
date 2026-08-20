@@ -15,24 +15,27 @@
 	"license": "https://creativecommons.org/licenses/by/4.0/",
 	"publisher": {
 		"@type": "Organization",
-		"@id": "https://www.wikidata.org/entity/Q130493218",
-		"name": {
-            "@value": "Library Erasmus University Rotterdam",
-            "@language": "en"
-        },
-		"alternateName": {
-            "@value": "Erasmus University Library",
-            "@language": "en"
-        },
-		"contactPoint": {
+		"@id": "https://www.wikidata.org/wiki/Q633529",
+		"sameAs": "https://ror.org/057w15z03",
+		"name": [
+			{
+            	"@value": "Erasmus University Rotterdam",
+            	"@language": "en"
+        	},
+			{
+				"@value": "Erasmus Universiteit Rotterdam",
+				"@language": "nl"
+			}
+		]
+	},
+	"contactPoint": {
 			"@type": "ContactPoint",
 			"name": {
 				"@value": "Collection Management & Access Department - Team Metadata Services",
 				"@language": "en"
 			},
 			"email": "registration.library@eur.nl"
-		}
-	},
+		},
     "dateCreated": "2026-04-16",
     "datePublished": "2026-04-16",
     "dateModified": "2026-08-11",
