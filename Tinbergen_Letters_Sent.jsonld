@@ -26,16 +26,16 @@
 				"@value": "Erasmus Universiteit Rotterdam",
 				"@language": "nl"
 			}
-		]
-	},
-	"contactPoint": {
+		],
+		"contactPoint": {
 			"@type": "ContactPoint",
 			"name": {
 				"@value": "Collection Management & Access Department - Team Metadata Services",
 				"@language": "en"
 			},
 			"email": "registration.library@eur.nl"
-		},
+		}
+	},
     "dateCreated": "2026-04-16",
     "datePublished": "2026-04-16",
     "dateModified": "2026-08-11",
