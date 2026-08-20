@@ -15,7 +15,7 @@
 	"license": "https://creativecommons.org/licenses/by/4.0/",
 	"publisher": {
 		"@type": "Organization",
-		"@id": "https://www.wikidata.org/wiki/Q130493218",
+		"@id": "https://www.wikidata.org/entity/Q130493218",
 		"name": {
             "@value": "Library Erasmus University Rotterdam",
             "@language": "en"
@@ -91,9 +91,7 @@
 		{
 			"@type": "DataDownload",
 			"contentUrl": "https://api.druid.datalegend.net/datasets/EURlibrary/Tinbergen-Letters-Sent/sparql",
-			"encodingFormat": [
-				"application/sparql-query"
-			],
+			"usageInfo": "https://www.w3.org/TR/sparql11-protocol/",
 			"name": "SPARQL-endpoint",
 			"license": "https://creativecommons.org/licenses/by/4.0/",
 			"description": "SPARQL endpoint for the Tinbergen Letters Sent dataset.",
@@ -104,8 +102,7 @@
 			"@type": "DataDownload",
 			"contentUrl": "https://druid.datalegend.net/EURlibrary/Tinbergen-Letters-Sent/download.trig.gz",
 			"encodingFormat": [
-				"application/trig",
-                "application/gzip"
+				"application/trig"
 			],
 			"name": "Triply datadump (TriG)",
 			"license": "https://creativecommons.org/licenses/by/4.0/",
