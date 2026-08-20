@@ -59,7 +59,7 @@
             "@language": "nl"            
     }            
     ],
-    "inLanguage": ["en", "nl", "de", "fr", "nor"],
+    "inLanguage": ["en", "nl", "de", "fr", "no"],
 	"creator": {
 		"@type": "Organization",
 		"@id": "https://www.wikidata.org/wiki/Q130493218",
@@ -116,8 +116,8 @@
 	"spatialCoverage": [
         {
             "@type": "Place",
-            "name": "Rotterdam",
-            "@id": "http://vocab.getty.edu/tgn/7006952"
+            "@id": "https://www.geonames.org/2747891/rotterdam.html",
+			"name": "Rotterdam"
         },
         {
             "@type": "Place",
