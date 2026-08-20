@@ -15,7 +15,7 @@
 	"license": "https://creativecommons.org/licenses/by/4.0/",
 	"publisher": {
 		"@type": "Organization",
-		"@id": "https://www.wikidata.org/wiki/Q633529",
+		"@id": "https://www.wikidata.org/wiki/Q130493218",
 		"contactPoint": {
 			"@type": "ContactPoint",
 			"name": {
@@ -27,14 +27,24 @@
 		"identifier": "NL-RtEUR",
 		"name": [
 			{
-            	"@value": "Erasmus University Rotterdam",
+            	"@value": "Library Erasmus University Rotterdam",
             	"@language": "en"
         	},
 			{
-				"@value": "Erasmus Universiteit Rotterdam",
+				"@value": "Universiteitsbibliotheek Erasmus Universiteit Rotterdam",
 				"@language": "nl"
 			}
-		]
+		],
+		"alternateName":[ 
+			{
+				"@value": "Erasmus University Library",
+				"@language": "en"
+			},
+			{
+				"@value": "Erasmus Universiteitsbibliotheek ",
+				"@language": "nl"
+			}
+			]
 	},
     "dateCreated": "2026-04-16",
     "datePublished": "2026-04-16",
@@ -53,10 +63,35 @@
 	"creator": {
 		"@type": "Organization",
 		"@id": "https://www.wikidata.org/wiki/Q130493218",
-		"name": {
-				"@value": "Library Erasmus University Rotterdam",
+		"contactPoint": {
+			"@type": "ContactPoint",
+			"name": {
+				"@value": "Collection Management & Access Department - Team Metadata Services",
 				"@language": "en"
+			},
+			"email": "registration.library@eur.nl"
+		},
+		"identifier": "NL-RtEUR",
+		"name": [
+			{
+            	"@value": "Library Erasmus University Rotterdam",
+            	"@language": "en"
+        	},
+			{
+				"@value": "Universiteitsbibliotheek Erasmus Universiteit Rotterdam",
+				"@language": "nl"
 			}
+		],
+		"alternateName":[ 
+			{
+				"@value": "Erasmus University Library",
+				"@language": "en"
+			},
+			{
+				"@value": "Erasmus Universiteitsbibliotheek ",
+				"@language": "nl"
+			}
+			]
 	},
 	"version": "2.0",
 	"keywords": [
